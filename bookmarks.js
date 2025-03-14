@@ -3,8 +3,7 @@ import { Client, Databases, Account, Query } from "appwrite";
 import { ID } from "appwrite";
 
 const client = new Client()
-    // .setEndpoint('https://appwrite.bioterms.space/v1')
-    .setEndpoint('https://appwrite.bioterms.space/v1')
+    .setEndpoint('https://cloud.appwrite.io/v1')
     .setProject('66bdd9ef0022a854dccc');
 
 const databases = new Databases(client);
