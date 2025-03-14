@@ -1,7 +1,7 @@
 import { Client, Databases } from "appwrite";
 
 const client = new Client()
-    .setEndpoint('https://appwrite.bioterms.space/v1') // Your API Endpoint
+    .setEndpoint('https://cloud.appwrite.io/v1') // Your API Endpoint
     .setProject('66bdd9ef0022a854dccc'); // Your project ID
 
 const databases = new Databases(client);

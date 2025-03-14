@@ -3,7 +3,7 @@ import themeUtils from './themeUtils.js';
 import { RoleAuth } from './roleAuth.js';
 
 const client = new Client()
-    .setEndpoint('https://appwrite.bioterms.space/v1')
+    .setEndpoint('https://cloud.appwrite.io/v1')
     .setProject('66bdd9ef0022a854dccc'); // Your Appwrite project ID
 
 const databases = new Databases(client);
